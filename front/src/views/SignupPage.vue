@@ -26,7 +26,7 @@ import LoginPageVue from './LoginPage.vue'
         },
         methods: {
             signUp() {
-                axios.post('http://localhost:8081/auth/login', {
+                axios.post('http://localhost:8081/auth/signup', {
                     username: this.username_input,
                     password: this.password_input
                 }).then(user => {
